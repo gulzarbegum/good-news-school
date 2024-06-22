@@ -1,0 +1,63 @@
+
+<html>
+<head>
+<title>GOOD NEWS ENGLISH MEDIUM HIGH SCHOOL</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.button {
+  background-color: #150E58;
+  border-radius : 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: right;
+  float : right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.but{
+  background-color: #150E58;
+  border-radius : 12px;
+  color: white;
+  padding: 14px 25px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+
+
+<a href="MAINPAGE.html"class="but">HOME</a>
+
+<script>
+
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<center><h2><u> OUR EDUCATIONAL DETAILS </u></h2></center>
+<br>
+<center><img src="top.jpg" height="700" width="700"></center>
+</body>
+</html>
